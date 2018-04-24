@@ -1,8 +1,8 @@
-var static = require('node-static');
-var path = new static.Server('.');
+const express = require('express');
+const app = new express();
 
-require('http').createServer(function (request, response) {
-    request.addListener('end', function () {
-      path.serveFile('/index.html', 200, {}, request, response);
-    }).resume();
-}).listen(8080);
+app.get('/', function(request, response){
+    response.sendfile('index.html');
+});
+
+app.listen(8080);
