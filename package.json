@@ -1,0 +1,20 @@
+{
+  "name": "Random Number App",
+  "version": "0.0.1",
+  "description": "Simple Rando Numbers Generator App",
+  "main": "index.html",
+  "engines": {
+    "node": "4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danilobarion1986/random-numbers-app"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "javascript"
+  ],
+  "author": "Danilo Barion Nogueira",
+  "license": "MIT"
+}
